@@ -12,6 +12,7 @@
 		3EE798C41E177615008F8BD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE798C21E177615008F8BD6 /* Main.storyboard */; };
 		3EE798C61E177615008F8BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE798C51E177615008F8BD6 /* Assets.xcassets */; };
 		3EE798C91E177615008F8BD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE798C71E177615008F8BD6 /* LaunchScreen.storyboard */; };
+		3EE798D11E17A682008F8BD6 /* StartGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE798D01E17A682008F8BD6 /* StartGameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3EE798C51E177615008F8BD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EE798C81E177615008F8BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EE798CA1E177615008F8BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EE798D01E17A682008F8BD6 /* StartGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartGameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				3EE798C51E177615008F8BD6 /* Assets.xcassets */,
 				3EE798C71E177615008F8BD6 /* LaunchScreen.storyboard */,
 				3EE798CA1E177615008F8BD6 /* Info.plist */,
+				3EE798D01E17A682008F8BD6 /* StartGameViewController.swift */,
 			);
 			path = "Tic-Tac-Toe";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				3EE798C11E177615008F8BD6 /* ViewController.swift in Sources */,
 				3EE798BF1E177615008F8BD6 /* AppDelegate.swift in Sources */,
+				3EE798D11E17A682008F8BD6 /* StartGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +271,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bwtdirectgroup.Tic-Tac-Toe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -280,6 +285,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bwtdirectgroup.Tic-Tac-Toe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
